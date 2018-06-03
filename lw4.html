@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My lab</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="js.js"></script>
+</head>
+<body>
+		<div id="mb">
+			<div id="b1" class="c">
+				<h1>Лабораторные работы</h1>
+				<h3>студентки 1 курса группы МА <br> Вербицкой Елены</h3>
+			</div>
+			<div id="b2" class="a1">
+				<ul>
+					<li><a href="index.html"><h3>Главная страница</h3></a></li>
+					<br>
+					<li>Лекционные материалы:</li>
+					<li><a href="co.html">Мои конспекты</a></li>
+					<li><a href="sw.html">Самостоятельная работа</a></li>
+					<br>
+					<li>GIMP:</li>
+					<li><a href="gl.html">Лабораторные работы</a></li>
+					<li><a href="gw.html">Творческая контрольная работа</a></li>
+					<br>
+					<li>HTML/CSS:</li>
+					<li><a href="lw1.html">Лабораторная работа 1</a></li>
+					<li><a href="lw2.html">Лабораторная работа 2</a></li>
+					<li><a href="lw3.html">Лабораторная работа 3</a></li>
+					<li><a href="lw4.html">Лабораторная работа 4</a></li>
+					<li><a href="cw.html">Контрольная работа CSS</a></li>
+					<br>
+					<li>JavaScript:</li>
+					<li><a href="js.html">Лабораторная работа 1</a></li>
+					<br>
+					<li>Scratch:</li>
+					<li><a href="sr.html">Примеры алгоритмов</a></li>
+					<br>
+					<li>Adobe Flash:</li>
+					<li><a href="ad.html">Анимация</a></li>
+					<br>	
+					<li>Работа с учениками:</li>
+					<li><a href="bl.html">Блог "Математика от студентов ЮНПУ им. К. Д. Ушинского"</a></li>
+				</ul>
+			</div>
+			<div id="b3" class="a1">
+				<h3 class="a2">HTML/CSS: Лабораторная работа 4</h3>
+				<img src="41.png">
+				<img src="42.png">
+				<h3>Исходный текст страницы (HTML):</h3>
+				<form>
+					<textarea readonly cols="92" rows="50">
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Междугородний обмен</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		div 
+			{border-style: solid;
+			border-width: 3px;
+			border-color: pink;
+			margin: 5px;
+			background-color: rgb(135, 206, 235) }	
+		body	
+			{background-color: yellow }
+		#b1	
+			{background-color: grey;
+		    padding: 5px;
+		    width: 60%;
+			height: 800px}
+		#b2 
+			{width: 36%;
+			float: left;
+			padding-bottom: 10px }
+		img 
+			{width: 790px}
+		table 
+			{margin: auto;
+			width: 30%}
+		.c1 
+			{text-align: center;
+			margin: 5px}
+		.c2 
+			{display: inline-block}
+		</style>
+</head>
+<body>
+	<div id="b1" class="c2">	
+		<img src="1.png" alt="Задание">
+	</div>
+	<div id="b2" class="c2">
+		<h1 class="c1">Междугородний обмен</h1>
+		<form action="" method="get" id="f1">
+		<table border="3" cellspacing="0">
+			<tr>
+				<td class="c1">ФИО</td>
+				<td class="c1">
+					
+					<input type="text" name="fio" maxlength="20">
+				</td>
+			</tr>
+			<tr>
+				<td class="c1">Адрес</td>
+				<td class="c1">
+					<input type="text" name="adres" maxlength="100">
+				</td>
+				</tr>
+			<tr>
+				<td class="c1">Количество комнат у клиента</td>
+				<td>
+					<select name="rooms" size="1">
+						<option selected="selected" value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="c1">Желаемые города</td>
+				<td>
+					<select name="towns" size="10" multiple="multiple">
+						<option selected="selected" value="1">Одесса</option>
+						<option value="2">Илличёвск</option>
+						<option value="3">Котовск</option>
+						<option value="4">Балта</option>
+						<option value="5">Рени</option>
+						<option value="6">Белгород-Днестровский</option>
+						<option value="7">Раздельная</option>
+						<option value="8">Измаил</option>
+						<option value="9">Килия</option>
+						<option value="10">Южный</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="c1">Желаемое количество комнат</td>
+				<td>
+					<select name="roomz" size="1">
+						<option value="1">1</option>
+						<option selected="selected" value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="c1">Этажность</td>
+				<td>
+					<input type="radio" name="floor" value="2" checked="checked">Любая<br>
+					<input type="radio" name="floor" value="2">1-4 этажи<br>
+					<input type="radio" name="floor" value="2">5-9 этажи<br>		
+					<input type="radio" name="floor" value="2">10-14 этажи<br>
+					<input type="radio" name="floor" value="2">15-22 этажи<br>		
+					<input type="radio" name="floor" value="2">Кроме первого<br>
+					<input type="radio" name="floor" value="2">Кроме последнего<br>
+					<input type="radio" name="floor" value="2">Кроме первого и последнего
+				</td>
+			</tr>
+			<tr>
+				<td class="c1">Дополнительные условия</td>
+				<td class="c1">
+					<textarea name="cond" cols="22" rows="5">&lt;/textarea>
+				</td>
+			</tr>
+		</table>
+	</form>
+	<div id="b3" class="c1">
+		<p><button type="submit" class="c1" form="f1">Отправить данные</button></p>
+		<p><button type="reset" class="c1" form="f1">Сбросить</button></p>	
+	</div>
+	</div>
+</body>
+</html>
+					</textarea>
+				</form>
+			</div>
+			<div id="b4" class="a1" onmouseover="f()">
+				<img src="2.png" id="im">
+			</div>
+			<div id="b5" class="c">
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;
+				&copy; Вербицкая Елена, 2018</p>
+			</div>
+				
+		</div>
+</body>
+</html>
