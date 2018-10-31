@@ -1,0 +1,15 @@
+body { 	font-size: 30px;}
+table { text-align: center;
+		background-color: rgb(192, 192, 192);}
+.a 	 { 	width: 50px;
+		height: 45px;
+		background-color: rgb(224, 255, 255);
+		color: black;
+		margin: 5px;}
+.b {	width: 80px;
+		height: 45px;}
+.c {	width: 161px;
+		height: 70px;}
+#ac {	height: 106px;}
+#tx1 {	margin-top: 5px;
+		text-align: right;}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Date calculator</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="l3.css">
+	<script type="text/javascript" src="l3.js"></script>
+</head>
+<body>
+	<div id="b1">
+		<h2>Date calculator</h2>
+		<table>
+			<tr>
+				<td colspan="5">
+					<form>
+					<textarea cols="45" rows="2" id="tx1"></textarea>
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><button class="a b" id="a0d" onclick="d1()">Day</button></td>
+				<td><button class="a" id="a1" onclick="f(1)">1</button></td>
+				<td><button class="a" id="a2" onclick="f(2)">2</button></td>
+				<td><button class="a" id="a3" onclick="f(3)">3</button></td>
+				<td rowspan="2"><button class="a" id="ac" onclick="c()">C</button></td>
+			</tr>
+			<tr>
+				<td><button class="a b" id="a0m" onclick="m1()">Month</button></td>
+				<td><button class="a" id="a4" onclick="f(4)">4</button></td>
+				<td><button class="a" id="a5" onclick="f(5)">5</button></td>
+				<td><button class="a" id="a6" onclick="f(6)">6</button></td>
+			</tr>
+			<tr>
+				<td><button class="a b" id="a0y" onclick="y1()">Year</button></td>
+				<td><button class="a" id="a7" onclick="f(7)">7</button></td>
+				<td><button class="a" id="a8" onclick="f(8)">8</button></td>
+				<td><button class="a" id="a9" onclick="f(9)">9</button></td>
+				<td><button class="a" id="a0" onclick="f(0)">0</button></td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td><button class="a c" id="an" onclick="n1()">Number of leap years between the entered dates</button></td>
+				<td><button class="a c" id="aw" onclick="w1()">Day of the week of the entered date</button></td>
+			</tr>
+		</table>
+		<br>
+		<img src="l3.png">		
+	</div>
+</body>
+</html>
