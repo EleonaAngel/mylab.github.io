@@ -1,0 +1,17 @@
+#b3 { background-color: rgb(235, 230, 170);
+	    font-size: 25px;}
+.m {border: solid rgb(42, 19, 0) 20px;
+	background-color: rgb(21, 59, 0);
+	color: rgb(194, 210, 194);
+	margin: 20px;
+	padding-left: 20px; 
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 40%;
+	height: 90%; 
+	float: left;
+	font-size: 18px;
+	font-family: Segoe Print;}
+#c {height: 75px;
+	width: 534px;}
