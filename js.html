@@ -3,8 +3,9 @@
 <head>
 	<title>My lab</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css!.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="js.js"></script>
+	<script src="javascript!.js"></script>
 	<link rel="shortcut icon" href="00.png" type="image/png">
 </head>
 <body>
@@ -51,46 +52,28 @@
 				</ul>
 			</div>
 			<div id="b3" class="a1">
-				<h3 class="a2">JavaScript: Лабораторная работа 1</h3>
-				<img src="91.png">
-				<img src="92.png">
-				<h3>HTML:</h3>
-				<form>
-					<textarea readonly cols="92" rows="50">
-<!DOCTYPE html>
-
-<html>
-
-<head>
-	<title>Lab 1 JS</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="CSS!.css">
-	<script src="JavaScript!.js"></script>
-</head>
-
-<body>
-	
-	<div id="a">
+				<h3 class="a2">JavaScript: Лабораторная работа 1</h3>	
+	<div id="a" class="m">
 		<h5>Here you can <class="c1" onclick="a()">change</class="c1"> right border, if you click on the word 'change'.</h5>
 	</div>
-	<div id="b">
+	<div id="b" class="m">
 		<h5>Here you can <class="c1" onmouseout="b()">change</class="c1"> display, if the mouse leave the word 'change'.</h5>
 	</div>
-	<div id="c">
+	<div id="c" class="m">
 		<h5>Here you can <class="c1" onclick="c()">change</class="c1"> position, if you click on the word 'change'.</h5>
 	</div>
-	<div id="d">
+	<div id="d" class="m">
 		<h5>Here you can <class="c1" onmousewheel="d()">change</class="c1"> width, if you wheel the word 'change'.</h5>
 	</div>
-	<div id="e">
+	<div id="e" class="m">
 		<h5>Here you can <class="c1" onmouseover="e()">change</class="c1"> border color, if you put the mouse over the word 'change'.</h5>
 	</div>
-	<div id="f">
+	<div id="f" class="m">
 		<h5>Here you can <class="c1" onmouseover="f()">change</class="c1"> background color, if you put the mouse over the word 'change'.</h5>
 	</div>
-	<div>
+	<div class="m">
 		<h5>Here you can <class="c1" onclick="g()">change</class="c1"> list style type, if you click on the word 'change'.</h5>
-		<ul id="g">
+		<ul id="g" >
 			<li>I love you</li>
 			<li>Je t'aime</li>
 			<li>Ich liebe dich</li>
@@ -98,86 +81,8 @@
 		</ul>
 	</div>
 
-</body>
-
-</html>
-					</textarea></form>
-				<h3>CSS:</h3>
-				<form>
-					<textarea readonly cols="92" rows="25">
-body {background-color: rgb(235, 230, 170);
-	 font-size: 25px;}
-
-div {border: solid rgb(42, 19, 0) 20px;
-	background-color: rgb(21, 59, 0);
-	color: rgb(194, 210, 194);
-	margin: 20px;
-	padding-left: 20px; 
-	padding-right: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	width: 40%;
-	height: 90%; 
-	float: left;
-	font-size: 18px;
-	font-family: Segoe Print;}
-#c {height: 75px;
-	width: 534px;}
-					</textarea></form>
-				<h3>JavaScript:</h3>
-				<form>
-					<textarea readonly cols="92" rows="50">
-function $() 
-{
-var elements = new Array();
-for (var i = 0; i < arguments.length; i++)
-{var element = arguments[i];
-if (typeof element == 'string')
-element = document.getElementById(element);
-if (arguments.length == 1)
-return element;
-elements.push(element);
-}
-return elements;}
-
-
-function a()
-{
-	$("a").style.borderRightColor='rgb(235, 230, 170)';
-}
-
-function b()
-{
-	$("b").style.display='none';
-}
-
-function c()
-{
-	$("c").style.position='fixed'
-}
-
-function d()
-{
-	$("d").style.width='30%'
-}
-
-function e()
-{
-	$("e").style.borderColor='skyblue'
-}
-
-function f()
-{
-	$("f").style.backgroundColor='white'
-}
-
-function g()
-{
-	$("g").style.listStyleType='circle'
-}
-					</textarea></form>
 			</div>
-			<div id="b4" class="a1" onmouseover="f()">
+			<div id="b4" class="a1">
 				<img src="2.png" id="im">
 			</div>
 			<div id="b5" class="c">
