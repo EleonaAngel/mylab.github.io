@@ -112,7 +112,4 @@ function f(x)
 	$('tx1').value=$('tx1').value+x;
 }
 
-function f()
-{
-	$("b4").style.backgroundImage="url('007.png')";
-}
+
